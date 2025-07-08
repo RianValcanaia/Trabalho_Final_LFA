@@ -57,8 +57,11 @@ class AutomatoPilha:
         simbolo_str = f"h({args[0]},{args[1]}→{args[2]})" if tipo == 'h' else f"p({args[0]}→{args[1]})"
 
         if tipo_transicao == "inicial":
+            n, origem, destino = args
             self.passos_internos += 1
             print(f"Transição: δ(q₀, ε, #) → 〈q₀, {simbolo_str}〉")
+            if self.n_discos == 1:
+                print(f"Transição: δ(q₀, ε, h(1,A→C) → 〈q₀, p({origem}→{destino})〉")
         elif tipo_transicao == "expandir":
             self.passos_internos += 1
             n, origem, destino = args
