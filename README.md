@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" id="topo">
 
 <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="200px" alt="Gif animado"/>
 
@@ -14,15 +14,15 @@
 
 ## Índice
 
-- [📌 Objetivos](#objetivos)
-- [📥 Entradas do sistema](#entradas-do-sistema)
-- [🧱 Estruturas de Dados](#estruturas-de-dados)
-- [🛠️ Funcionalidades](#funcionalidades)
-- [📊 Exemplo de Execução](#exemplo-de-execução)
-- [📂 Como executar](#como-executar)
-- [👨‍🏫 Envolvidos](#envolvidos)
-- [📅 Curso](#curso)
-- [📄 Código-fonte](#código-fonte)
+- [📌 Objetivos](#-objetivos)
+- [📥 Entradas do sistema](#-entradas-do-sistema)
+- [🧱 Estruturas de Dados](#-estruturas-de-dados)
+- [🛠️ Funcionalidades](#-funcionalidades)
+- [📊 Exemplo de Execução](#-exemplo-de-execução)
+- [📂 Como executar](#-como-executar)
+- [👨‍🏫 Envolvidos](#-envolvidos)
+- [📅 Curso](#-curso)
+- [📄 Código-fonte](#-código-fonte)
 
 ## 📌 Objetivos
 
@@ -31,13 +31,13 @@
 *   Demonstrar o funcionamento do AP, exibindo o estado da pilha e a configuração das torres a cada passo da execução.
 *   Diferenciar as transições internas do autômato (expansão e simplificação de regras) dos movimentos de disco.
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 📥 Entradas do sistema
 
 *   O usuário deve fornecer o **número de discos** (um número inteiro maior ou igual a 1) que serão utilizados na simulação da Torre de Hanoi.
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 🧱 Estruturas de Dados
 
@@ -72,7 +72,7 @@ class AutomatoPilha:
     def executar(self):
 ```
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 🛠️ Funcionalidades
 
@@ -91,7 +91,7 @@ class AutomatoPilha:
     *   `_obter_torre_auxiliar()`: Calcula qual das três torres ('A', 'B', 'C') é a auxiliar, dadas a origem e o destino.
     *   `_imprimir_passo()`: Exibe o estado atual da simulação, incluindo a transição realizada, o conteúdo da pilha e a disposição dos discos nas torres.
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 📊 Exemplo de Execução
 
@@ -101,7 +101,7 @@ class AutomatoPilha:
 4.  A cada passo, o programa imprime na tela a transição formal do autômato, o estado atual da pilha e a configuração das torres (A, B, C).
 5. Ao final, o programa exibe o número total de movimentos de disco realizados para resolver o problema.
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 📂 Como executar
 
@@ -113,7 +113,7 @@ python3 main.py
 
 O programa então solicitará que você digite o número de discos.
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 👨‍🏫 Envolvidos
 
@@ -122,7 +122,7 @@ O programa então solicitará que você digite o número de discos.
     * Camile Neves
     *   [Rian Carlos Valcanaia](https://github.com/RianValcanaia)
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 📅 Curso
 
@@ -130,10 +130,10 @@ O programa então solicitará que você digite o número de discos.
 *   **Disciplina**: Linguagens Formais e Autômatos
 *   **Semestre**: 4º
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
 
 ## 📄 Código-fonte
 
 🔗 [https://github.com/RianValcanaia/LFA_Torre_de_Hanoi_com_AP](https://github.com/RianValcanaia/LFA_Torre_de_Hanoi_com_AP)
 
-[⬆ Voltar ao topo](#índice)
+[⬆ Voltar ao topo](#topo)
