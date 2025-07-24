@@ -17,7 +17,7 @@
 - [📌 Objetivos](#-objetivos)
 - [📥 Entradas do sistema](#-entradas-do-sistema)
 - [🧱 Estruturas de Dados](#-estruturas-de-dados)
-- [🛠️ Funcionalidades](#-funcionalidades)
+- [🧰 Funcionalidades](#-funcionalidades)
 - [📊 Exemplo de Execução](#-exemplo-de-execução)
 - [📂 Como executar](#-como-executar)
 - [👨‍🏫 Envolvidos](#-envolvidos)
@@ -74,7 +74,7 @@ class AutomatoPilha:
 
 [⬆ Voltar ao topo](#topo)
 
-## 🛠️ Funcionalidades
+## 🧰 Funcionalidades
 
 ### 🔹 Funções Principais
 
