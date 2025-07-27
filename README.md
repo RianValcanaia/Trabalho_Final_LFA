@@ -2,7 +2,7 @@
 
 <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="200px" alt="Gif animado"/>
 
-# <code><strong> Torre de Hanoi com Autômato com Pilha </strong></code>
+# <code><strong> Simulador de Torre de Hanoi com Autômato com Pilha </strong></code>
 
 <em>Implementação do problema da Torre de Hanoi utilizando um Autômato com Pilha como mecanismo de evolução.</em>
 
